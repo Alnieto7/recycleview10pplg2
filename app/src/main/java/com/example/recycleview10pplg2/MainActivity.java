@@ -25,8 +25,13 @@ public class MainActivity extends AppCompatActivity {
         // Menambahkan data menu makanan
         itemList = new ArrayList<>();
         itemList.add(new ItemModel("Nasi Goreng", "Rp 15.000", R.drawable.nasgor));
+        itemList.add(new ItemModel("Nasi Goreng", "Rp 15.000", R.drawable.nasgor));
+        itemList.add(new ItemModel("Mie Goreng", "Rp 10.000", R.drawable.mi));
         itemList.add(new ItemModel("Mie Goreng", "Rp 10.000", R.drawable.mi));
         itemList.add(new ItemModel("Seblak", "Rp 8.000", R.drawable.ceblak));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
         itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
 
         // Inisialisasi adapter dengan event klik yang mengarah ke DetailActivity
