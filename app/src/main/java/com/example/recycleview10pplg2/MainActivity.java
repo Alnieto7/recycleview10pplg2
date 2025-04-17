@@ -38,6 +38,17 @@ public class MainActivity extends AppCompatActivity {
         itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
         itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
         itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+        itemList.add(new ItemModel("Bakso", "Rp 12.000", R.drawable.ravatar));
+
+
+
+
+
+
 
         // Inisialisasi adapter dengan event klik yang mengarah ke DetailActivity
         adapter = new ItemAdapter(this, itemList, item -> {
