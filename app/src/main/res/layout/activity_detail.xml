@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kembali"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#F40000"
         android:textColor="#FFFFFF"
         android:layout_marginTop="24dp"/>
 </LinearLayout>
